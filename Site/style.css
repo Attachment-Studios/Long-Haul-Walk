@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Megrim&display=swap');
+
+:root {
+	--s1: 8em;
+	--s2: 6em;
+	--s3: 5em;
+	--s4: 4em;
+	--s5: 3em;
+	--s6: 2em;
+	--sp: 1.5em;
+	--c1: #000000;
+	--c2: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 1em;
+	font-family: 'Megrim';
+	background: var(--c1);
+	color: var(--c2);
+}
+
+h1 {
+	font-size: var(--s1);
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: var(--s2);
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-size: var(--s3);
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	font-size: var(--s4);
+	margin: 0;
+	padding: 0;
+}
+
+h5 {
+	font-size: var(--s5);
+	margin: 0;
+	padding: 0;
+}
+
+h6 {
+	font-size: var(--s6);
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: var(--sp);
+	margin: 0;
+	padding: 0;
+}
+
+strong {
+	font-size: var(--sp);
+	margin: 0;
+	padding: 0;
+}
+
+#barcode {
+	margin: 0;
+	padding: 0;
+	font-size: var(--sp);
+	text-decoration: none;
+	font-family: 'Libre Barcode 128', cursive;
+}
+
+button {
+	margin: 0;
+	outline: none;
+	border: 3px solid var(--c2);
+	color: var(--c2);
+	font-size: inherit;
+	padding: 1em;
+	background: var(--c1);
+	cursor: pointer;
+}
+
+button:hover {
+	color: var(--c1);
+	background: var(--c2);
+}
